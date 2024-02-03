@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Calculator  html css javascript " />
+    <meta
+      name="description"
+      content="in this task I Use HTML CSS JS . to build Calculator app. "
+    />
+    <meta name="author" content="ahmedmo.abdulghaffar@gmail.com" />
+    <meta name="rating" content="General" />
+    <title>Calculator</title>
+      <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+       <header>
+      <nav>
+        <a href="" id="logo">Ahmed </a>
+        <div class="navitem">
+          <a target="_blank" href="https://github.com/Ahmed-Abdelghafar"><i id="gi" class="fab fa-github"></i></a>
+          <a target="_blank"  href="https://www.linkedin.com/in/ahmed-mohamed10136//"><i id="ln" class="fab fa-linkedin-in"></i></a>
+          <a target="_blank"  href="https://www.youtube.com/@ahmedMohamed10136"><i id="youtube" class="fab fa-youtube"></i></a>        </div>
+      </nav>
+    </header>
+    <section class="calc">
+      <div class="inpute"><input placeholder=" 1 + 1=2" id="view" /></div>
+      <ul id="allnumbres">
+        <strong id="Clear">C</strong
+        ><strong onclick="btnCalc('÷')" id="division">÷</strong
+        ><strong onclick="btnCalc('*')" id="multiple">*</strong>
+        <li value="7">7</li>
+        <li value="8">8</li>
+        <li value="9">9</li>
+        <strong onclick="btnCalc('+')" id="collect">+</strong>
+        <li value="4">4</li>
+        <li value="5">5</li>
+        <li value="6">6</li>
+        <strong onclick="btnCalc('-')" id="minus">-</strong>
+        <li value="1">1</li>
+        <li value="2">2</li>
+        <li value="3">3</li>
+        <strong onclick="btnCalc('^')" onclick="view.value+='%'" value="%"
+          >^</strong
+        >
+        <li value="0">0</li>
+        <strong onclick="btnCalc('.')" onclick="view.value+='.'" value="."
+          >.</strong
+        ><strong id="equal">=</strong>
+      </ul>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
